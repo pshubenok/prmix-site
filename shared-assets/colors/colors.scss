@@ -1,0 +1,112 @@
+:root {
+  --shadow: rgba(0, 0, 0, 0.5);
+  --lasso-shadow: #5B5E61;
+  --errorStroke: #FF5459;
+}
+
+$scroll-thumb-bg: rgba(255, 255, 255, .75);
+$element-hover-shadow: 0 1px 6px 0 rgba(0, 0, 0, .12);
+$node-icon-error: rgba(255, 84, 89, 0.3);
+$node-icon-debug: rgba(115, 214, 128, 0.3);
+
+$builder-input-invalid-color: #e1b9b9;
+$builder-tooltip-invalid-bg: rgba(225, 185, 185, .9);
+
+// Colors_ProcessMix
+$black: #000000;
+$deepDarkGray: #1F2123;
+$darkGrayAdditional: #2A2D2F;
+$darkGraySecondary: #2B2D30;
+$darkGrayMain: #2B2B2B;
+$darkGrayTertiary: #2F2F2F;
+$grayAdditional: #313335;
+$graySecondary: #333638;
+$grayMain: #3C3F41;
+$grayShuttle: #505456;
+$lightGrayAdditional: #454648;
+$lightGraySecondary: #5B5E61;
+$lightGrayMain: #BBBBBB;
+$lightGrayTertiary: #494D50;
+$lightGrayQuaternary: #505456;
+$white: #FFFFFF;
+$darkBlue: #0D293E;
+$blue: #1C8BDC;
+$lightBlue: #51A7E5;
+$lightBlueSecondary: #8ED0FF;
+$green: #499C54;
+$lightGreen: #73D680;
+$lightGreenSecondary: #9BF2A7;
+$deepDarkRed: #402F30;
+$darkRed: #6B3739;
+$redSecondary: #9E3134;
+$redMain: #F44336;
+$lightRed: #ff5459;
+$darkPurple: #4B3A65;
+$darkPurpleSecondary: #403552;
+$deepBlue: #0D1023;
+
+$black-to-blue-gradient: linear-gradient(359.97deg, #000000 0.03%, #121B46 99.65%);
+$dark-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+
+// Nodes Colors:
+$orangeIDE: #FEAB30;
+$blueIDE: #2CBADD;
+$violetIDE: #C56CF0;
+$greenIDE: #6EBE45;
+$pinkIDE: #F26AAC;
+
+// Transparent colors
+$lightGraySecondary30: rgba(91, 94, 97, 0.3);
+$lightGrayMain60: rgba(187, 187, 187, 0.6);
+$lightGrayMain2: rgba(187, 187, 187, 0.02);
+$lightGrayMain10: rgba(187, 187, 187, 0.1);
+$lightGrayMain5: rgba(187, 187, 187, 0.05);
+$graySecondary50: rgba(51, 54, 56, 0.5);
+$deepDarkGray30: rgba(31, 33, 35, 0.3);
+$lightGrayMain30: rgba(187, 187, 187, 0.3);
+$lightGreen20: rgba(115, 214, 128, 0.2);
+$lightGreen30: rgba(115, 214, 128, 0.3);
+$lightGreen80: rgba(115, 214, 128, 0.8);
+$lightRed30: rgba(255, 84, 89, 0.3);
+$lightBlue30: rgba(81, 167, 229, 0.3);
+$lightBlue60: rgba(81, 167, 229, 0.6); // no such in guide
+$lightBlue80: rgba(81, 167, 229, 0.8);
+$blue30: rgba(28, 139, 220, 0.3);
+$blue60: rgba(28, 139, 220, 0.6);
+$blue80: rgba(28, 139, 220, 0.8);
+$green80: rgba(73, 156, 84, 0.8);
+$lightRed10: rgba(244, 67, 54, 0.1);
+
+//color version control tree
+$yellowMerge: #F8DF00;
+$blueMerge: #4356FF;
+$lemonMerge: #FCFF69;
+$purpleMerge: #945DEE;
+$yellowGreenIDE: #B7DC68;
+$magentaMerge: #CF00C7;
+$greenMerge: #00952A;
+$turquoiseMerge: #1EB691;
+$orangeMerge: #FF7F37;
+$azureMerge: #0697FF;
+
+$selectorMap: (
+  $orangeIDE: ".color0",
+  $blueIDE: ".color1",
+  $pinkIDE: ".color2",
+  $violetIDE: ".color3",
+  $redMain: ".color4",
+  $greenMerge: ".color5",
+  $azureMerge: ".color6",
+  $yellowGreenIDE: ".color7",
+  $blueMerge: ".color8",
+  $lemonMerge: ".color9",
+  $purpleMerge: ".color10",
+  $orangeMerge: ".color11",
+  $turquoiseMerge: ".color12",
+  $magentaMerge: ".color13",
+  $yellowMerge: ".color14",
+  $greenIDE: ".color15",
+  $lightGraySecondary: ".color16",
+  $lightGrayMain: ".color-1",
+);
